@@ -1,0 +1,194 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OBE Based Result Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="{% static '/css/aboutcontact.css'%}">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
+    <!--<link href="style.css" rel="stylesheet"/> -->
+    <link rel="stylesheet" type="text/css" href="{% static '/css/style.css'%}">
+    
+</head>
+<body>
+
+<header>
+    <!--<p class="logo"><img src="OBE.png" alt="obe Icon" style="width:300px;height:300px;"></p> -->
+    <p class="logo"><img src="{% static '/images/OBE.png' %}" alt="obe Icon" style="width:300px;height:300px;"></p>
+<nav>
+<ul>
+<li>
+    <a href="#" class="dropbtn"> <b>Home</b> </a>
+</li>
+<li>
+    <div class="dropdown">
+         <p class="dropbtn"><b>Faculty</b></p>
+     <div class="dropdown-content">
+            <a href="">Faculty of Mathematical & Physical Sciences</a>
+            <a href="">Faculty of Arts & Humanities</a>
+            <a href="">Faculty of Social Sciences</a>
+            <a href="">Faculty of Biological Sciences </a>
+            <a href="">Faculty of Business Studies</a>
+            <a href="">Faculty of law </a>
+
+  </div>
+        </div>
+        </li>
+
+    <li class="abt">
+        <!--<a href="aboutus.html"><b>About Us</b> </a>   {% url 'about'%}  -->
+        <a href="#body3" class="dropbtn"><b>About Us</b> </a>
+</li>
+<li>
+<a href="#body2" class="dropbtn"> <b>Contact Us</b> </a>
+</li>
+<li> <a href="{% url 'signup' %}" class="dropbtn"> <b>Sign Up</b> </a>
+</li>
+<li>
+<a href="{% url 'login' %}" class="dropbtn"><b><i class="fa fa-sign-in" aria-hidden="true"></i> Login </b></a>
+</li>
+    <!-- <input type="text" placeholder="Search.." class="searchBar"><i class="abc fa fa-search"></i> -->
+</ul>
+</nav>
+</header>
+
+
+    <style>
+    h3,h5 {
+        letter-spacing: 1px;
+        overflow: hidden;
+        background: linear-gradient(90deg, #2e2e2e, #fff, #2e2e2e);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: animate 7s linear infinite;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: rgba(54, 53, 53, 0);
+      }
+      
+      @keyframes animate {
+        0% {
+          background-position: -500%;
+        }
+        100% {
+          background-position: 500%;
+        }
+      }
+    </style>
+    <main>
+    <div class="mainDiv">
+        <h3 class="in">Are you relaxing after the end of your semester?</h3>
+        <h1 class="in">WELCOME TO OBE BASED RESULT MANAGEMENT SYSTEM</h1>
+        <h5 class="in">Brace Yourself, Results Are Coming!</h5>
+    </div>
+
+    <div id="body3">
+        <div class="about-header">
+            <h1 class="p-info" style="font-weight: 600;">Who Are We?</h1>
+            <p class="p-info">We are the students of Department of Computer science and Engineering at Jahangirnagar University. We built this website so that any academic institution can easily measure the skill of a student efficiently.</p>
+        </div>
+       <div class="about-container">
+        <div class="box">
+            <div class="boxContent">
+                <i class="fa fa-book icon" aria-hidden="true"></i>
+                <h1 class="title">MISSION</h1>
+                <hr class="hr">
+                <p class="p-info">
+                    Exceed teachers’ and students’ expectations by going beyond software to provide best OBE Based Result Management System that transform exam marks(Both OBE and non OBE)  into result, enabling them to analyze progress and lackings.
+
+                </p>
+            </div>
+            
+        </div>
+
+        <div class="box">
+            <div class="boxContent">
+                <i><i class="fa fa-globe icon" aria-hidden="true"></i></i>
+                <h1 class="title">VISION</h1>
+                <hr class="hr">
+                <p class="p-info">
+                    Our Vision is to build and operate OBE Based Result Management and launch it at market level. We believe that our system will enhance the effectiveness, efficiency and accuracy of a university’s result management. So we commit all the teachers and students to help in achieving their academic goals. We believe in work with the accuracy and best quality. We want to be known as the reliable, innovative and user friendly result management system provider in the Universities.
+
+                </p>
+            </div>
+            
+        </div>
+        <div class="box">
+            <div class="boxContent">
+                <i class="fa fa-pencil icon" aria-hidden="true"></i>
+                <h1 class="title">ACHIEVEMENTS</h1>
+                <hr class="hr">
+                <p class="p-info">
+                    Currently it is in alpha-testing mode. We believe that we can achieve our missions and visions once we launch our system.
+
+
+                </p>
+            </div>
+            
+        </div>
+       </div>
+    </div>
+
+    
+    <div id="body2">
+        <div class="container" style="width: 83%;">
+          <div class="content">
+            <div class="left-side">
+              <div class="address details">
+                <i class="fas fa-map-marker-alt"style='font-size:40px;color:#7E685A'></i>
+                  <div class="topic"><b>Address</b></div>
+                <div class="text-one">Jahangirnagar University</div>
+                <div class="text-two">Savar,Dhaka-1342, Bangladesh</div>
+              </div>
+              <div class="phone details">
+                <i class="fas fa-phone-alt" style='font-size:40px;color:#7E685A'></i>
+                  <div class="topic"><b>Phone</b></div>
+                <div class="text-one">+8801643261019</div>
+                <div class="text-two">+8801759958460</div>
+                <div class="text-two">+8801790026111</div>
+              </div>
+              <div class="email details">
+                <i class="fas fa-envelope" style='font-size:40px;color:#7E685A'></i>
+                  <div class="topic"><b>Email</b></div>
+                <div class="text-one">jucse28.361@gmail.com</div>
+                <div class="text-one">jucse28.344@gmail.com</div>
+                <div class="text-one">jucse.27.2142@gmail.com</div>
+      
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="topic-text">Send us a message</div>
+              <p class="t">If you have any quries related to our website, you can send us message from here. It's our pleasure to help you.</p>
+            <form action="#">
+              <div class="input-box">
+                <input type="text" placeholder="Enter your name">
+              </div>
+              <div class="input-box">
+                <input type="text" placeholder="Enter your email">
+              </div>
+              <div class="input-box message-box">
+              <input type="text" placeholder="Send message">
+              </div>
+              <div class="button">
+                <input type="button" value="Send Now" >
+              </div>
+            </form>
+          </div>
+          </div>
+        </div>
+    </div>
+
+    
+
+</main>
+    
+    
+
+<footer class="footer">
+ <i>Copyright &copy; Fiha-Monira-Iffat.All rights reserved.</i>
+</footer>
+          </body>
+</html>

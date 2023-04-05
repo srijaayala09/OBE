@@ -1,0 +1,89 @@
+
+{% extends 'OBEAPP/main.html'%}
+{% load mathfilters %}
+{% block content%}
+<h4 style="text-align: center;">Marksheet for {{course.course.course_name}}</h4>
+
+<div>
+
+<table class="tbl" style="margin-left:8px; width: 100%;">
+    <tr id="header">
+        <th>Exam Roll</th>
+        <th>Name</th>
+        <th>T-1</th>
+        <th>T-2</th>
+        <th>T-3</th>
+
+        <th>CO1</th>
+        <th>CO2</th>
+        <th>CO3</th>
+        <th>CO4</th>
+        <th>CO5</th>
+
+        <th>AvgTutorial</th>
+        <th>Attendance</th>
+        <th>TotalSemMark</th>
+        <th>Total </th>
+        <th>Grade</th>
+        <th>Grade Point</th>
+
+    </tr>
+        <indent>
+        {% for student in obj %}
+       <tr>
+        <td>{{student.student.student.exam_roll}}</td>
+        <td>{{student.student.student.name}}</td>
+        <td>{{student.tt1}}</td>
+        <td>{{student.tt2}}</td>
+        <td>{{student.tt3}}</td>
+        <td>{{student.co1}}</td>
+        <td>{{student.co2}}</td>
+        <td>{{student.co3}}</td>
+        <td>{{student.co4}}</td>
+        <td>{{student.co5}}</td>
+
+        <td>{{ student.tt1|add:student.tt2|add:student.tt3|div:3|floatformat:2 }}</td>
+        <td>{{ student.att }}</td>
+        <td>{{ student.co1|add:student.co2|add:student.co3|add:student.co4|add:student.co5 }}</td>
+        <td>{{ student.tt1|add:student.tt2|add:student.tt3|div:3|add:student.att|add:student.co1|add:student.co2|add:student.co3|add:student.co4|add:student.co5 }}</td>
+            {%if student.tt1|add:student.tt2|add:student.tt3|div:3|add:student.att|add:student.co1|add:student.co2|add:student.co3|add:student.co4|add:student.co5 >= 80 %}
+           <td>A+</td>
+           <td>4.00</td>
+           {%elif student.tt1|add:student.tt2|add:student.tt3|div:3|add:student.att|add:student.co1|add:student.co2|add:student.co3|add:student.co4|add:student.co5 >= 75 %}
+           <td>A</td>
+           <td>3.75</td>
+           {%elif student.tt1|add:student.tt2|add:student.tt3|div:3|add:student.att|add:student.co1|add:student.co2|add:student.co3|add:student.co4|add:student.co5 >= 70 %}
+           <td>A-</td>
+           <td>3.50</td>
+           {%elif student.tt1|add:student.tt2|add:student.tt3|div:3|add:student.att|add:student.co1|add:student.co2|add:student.co3|add:student.co4|add:student.co5 >= 65 %}
+           <td>B+</td>
+           <td>3.25</td>
+           {%elif student.tt1|add:student.tt2|add:student.tt3|div:3|add:student.att|add:student.co1|add:student.co2|add:student.co3|add:student.co4|add:student.co5 >= 60 %}
+           <td>B</td>
+           <td>3.00</td>
+           {%elif student.tt1|add:student.tt2|add:student.tt3|div:3|add:student.att|add:student.co1|add:student.co2|add:student.co3|add:student.co4|add:student.co5 >= 55 %}
+           <td>B-</td>
+           <td>2.75</td>
+           {%elif student.tt1|add:student.tt2|add:student.tt3|div:3|add:student.att|add:student.co1|add:student.co2|add:student.co3|add:student.co4|add:student.co5 >= 50 %}
+           <td>C+</td>
+           <td>2.50</td>
+           {%elif student.tt1|add:student.tt2|add:student.tt3|div:3|add:student.att|add:student.co1|add:student.co2|add:student.co3|add:student.co4|add:student.co5 >= 45 %}
+           <td>C</td>
+           <td>2.25</td>
+           {%elif student.tt1|add:student.tt2|add:student.tt3|div:3|add:student.att|add:student.co1|add:student.co2|add:student.co3|add:student.co4|add:student.co5 >= 40 %}
+           <td>D</td>
+           <td>2.00</td>
+           {%else %}
+           <td>F</td>
+           <td>0.00</td>
+
+            {% endif %}
+       </indent>
+
+       </tr>
+    {% endfor %}
+
+</table>
+       
+</div>
+{% endblock %}

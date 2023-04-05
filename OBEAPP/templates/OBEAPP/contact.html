@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+
+   <!-- <link rel="stylesheet" href="aboutcontact.css"> -->
+     <link rel="stylesheet" type="text/css" href="{% static '/css/aboutcontact.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body class="body2">
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"style='font-size:40px;color:#7E685A'></i>
+            <div class="topic"><b>Address</b></div>
+          <div class="text-one">Jahangirnagar University</div>
+          <div class="text-two">Savar,Dhaka-1342, Bangladesh</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt" style='font-size:40px;color:#7E685A'></i>
+            <div class="topic"><b>Phone</b></div>
+          <div class="text-one">+8801643261019</div>
+          <div class="text-two">+8801759958460</div>
+          <div class="text-two">+8801790026111</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope" style='font-size:40px;color:#7E685A'></i>
+            <div class="topic"><b>Email</b></div>
+          <div class="text-one">jucse28.361@gmail.com</div>
+          <div class="text-one">jucse28.344@gmail.com</div>
+          <div class="text-one">jucse.27.2142@gmail.com</div>
+
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p class="t">If you have any quries related to our website, you can send us message from here. It's our pleasure to help you.</p>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+        <input type="text" placeholder="Send message">
+        </div>
+        <div class="button">
+          <input type="button" value="Send Now" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
