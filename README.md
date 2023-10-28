@@ -1,5 +1,5 @@
 # OBE
-This project is a web based application based on Outcome Based Education (OBE) Result Management System. By using this project: 
+This project is a web application based on Outcome Based Education (OBE) Result Management System. By using this project: 
 ->Students can search results 
 ->Students can get their results or the result of the whole batch. 
 ->Teachers can prepare results for their courses. 
