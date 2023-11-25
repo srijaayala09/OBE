@@ -131,10 +131,12 @@ When prompted, enter a username, email, and password.
 
   - **University Section:**
     - Monitor departmental result conditions.
+  
+💫Thank you!💫
 
-```arduino
-Feel free to use this template and customize it further based on your specific project details and preferences.
-```
+Special Thanks 💚 to our respected supervisors (☞ﾟヮﾟ)☞ `Dr. Abu Sayed Md. Mostafizur Rahaman` & `Anup Majumder`
+
+💭 Feel free to submit a ✅pull request with your valuable suggestions. ☜(ﾟヮﾟ☜)
 
 ---
 
