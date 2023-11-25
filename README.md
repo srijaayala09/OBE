@@ -1,6 +1,30 @@
 # OBE Result Management System
 
 This project is a web application based on Outcome Based Education (OBE) Result Management System.
+# OBE Result Management System
+
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+  - [1. Create a virtual environment](#1-create-a-virtual-environment)
+  - [2. Activate the virtual environment](#2-activate-the-virtual-environment)
+  - [3. Install required dependencies](#3-install-required-dependencies)
+  - [4. Run migrations](#4-run-migrations)
+  - [5. Create an admin user](#5-create-an-admin-user)
+- [Run the application](#run-the-application)
+- [View the application](#view-the-application)
+- [Copyright and License](#copyright-and-license)
+
+## Prerequisites
+Make sure you have the following prerequisites installed:
+- Python 3.10.4 or higher
+- Visual Studio Code
+
+## Installation
+1. **Create a virtual environment:**
+   From the root directory run:
+   ```bash
+   python -m venv venv
 
 ## Features
 
@@ -19,6 +43,7 @@ This project is a web application based on Outcome Based Education (OBE) Result 
 
 - **University:**
   - Monitor the result condition of any department.
+  
 
 ## Usage
 
