@@ -131,12 +131,13 @@ When prompted, enter a username, email, and password.
 
   - **University Section:**
     - Monitor departmental result conditions.
+
   
-💫Thank you!💫
+*💫Thank you!💫.*
 
-Special Thanks 💚 to our respected supervisors (☞ﾟヮﾟ)☞ `Dr. Abu Sayed Md. Mostafizur Rahaman` & `Anup Majumder`
+Special Thanks 💚 to our respected supervisors  `Dr. Abu Sayed Md. Mostafizur Rahaman` & `Anup Majumder`.
 
-💭 Feel free to submit a ✅pull request with your valuable suggestions. ☜(ﾟヮﾟ☜)
+💭 Feel free to submit a ✅pull✅ request with your valuable suggestions. ☜(ﾟヮﾟ☜)
 
 ---
 
