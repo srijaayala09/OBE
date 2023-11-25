@@ -1,5 +1,5 @@
 <h1 align="center">OBE Result Management System</h1>
-This project is a web application based on Outcome Based Education (OBE) Result Management System.
+<p align='ccenter'>This project is a web application based on Outcome Based Education (OBE) Result Management System which addresses the shortcomings of traditional systems.</p>
 
 ![](https://github.com/whomping-willow/OBE/blob/main/static/images/homeAnimation.gif)
 
