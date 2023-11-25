@@ -1,5 +1,4 @@
-# OBE Result Management System
-
+# OBE Result Management Syste
 This project is a web application based on Outcome Based Education (OBE) Result Management System.
 
 ![](https://github.com/whomping-willow/OBE/blob/main/static/images/homeAnimation.gif)
@@ -17,9 +16,62 @@ We are JU_Trio from the Computer Science and Engineering department at JU, passi
 - 📱 Visual Studio Code
 - 💻 HTML, CSS, JS, Python, Bootstrap, JavaScript
 
-Feel free to explore our repositories and join us in our coding adventures!
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+  - [1. Create a virtual environment](#1-create-a-virtual-environment)
+  - [2. Activate the virtual environment](#2-activate-the-virtual-environment)
+  - [3. Install required dependencies](#3-install-required-dependencies)
+  - [4. Run migrations](#4-run-migrations)
+  - [5. Create an admin user](#5-create-an-admin-user)
+- [Run the application](#run-the-application)
+- [View the application](#view-the-application)
+- Features and Usage
+- [Copyright and License](#copyright-and-license)
 
+## Prerequisites
+Make sure you have the following prerequisites installed:
+- Python 3.10.4 or# OBE Result Management System
+## Installation
+1. **Create a virtual environment:**
+   From the root directory run:
+   ```bash
+   python -m venv venv
+   ```
+2. **Activate the virtual environment:**
+   From the root directory run:
+     On Linux/macOS:
+   ```bash
+    source venv/bin/activate
+   ```
+    On Windows:
+    ```bash
+    venv\scripts\activate
+    ```
+3. **Install required dependencies:**
+   From the root directory run:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. **Run migrations:**
+    From the root directory run:
+    ```bash
+    python manage.py makemigrations
+    python manage.py migrate
+    ```
+5. **Create an admin user:**
+    From the root directory run:
+     ```bash
+    python manage.py createsuperuser
+     ```
+When prompted, enter a username, email, and password.
 
+##
+Certainly! Here's the entire paragraph converted into a GitHub README.md code:
+
+markdown
+Copy code
+# OBE Result Management System
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
@@ -43,6 +95,39 @@ Make sure you have the following prerequisites installed:
    From the root directory run:
    ```bash
    python -m venv venv
+Activate the virtual environment:
+From the root directory run:
+
+On Linux/macOS:
+bash
+Copy code
+source venv/bin/activate
+On Windows:
+bash
+Copy code
+venv\scripts\activate
+Install required dependencies:
+From the root directory run:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run migrations:
+From the root directory run:
+
+bash
+Copy code
+python manage.py makemigrations
+python manage.py migrate
+Create an admin user:
+From the root directory run:
+
+bash
+Copy code
+python manage.py createsuperuser
+When prompted, enter a username, email, and password.
+
+Run the application
 
 ## Features
 
