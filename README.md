@@ -113,9 +113,6 @@ When prompted, enter a username, email, and password.
   - **University Section:**
     - Monitor departmental result conditions.
 
-## How to Run
-
-
 ```arduino
 Feel free to use this template and customize it further based on your specific project details and preferences.
 ```
