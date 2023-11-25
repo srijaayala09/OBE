@@ -1,53 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OBE Result Management System</title>
-    <!-- Add your CSS stylesheets and other head elements here -->
-</head>
-<body>
+# OBE Result Management System
 
-    <header>
-        <h1>OBE Result Management System</h1>
-    </header>
+This project is a web application based on Outcome Based Education (OBE) Result Management System.
 
-    <nav>
-        <!-- Add navigation links if needed -->
-    </nav>
+## Features
 
-    <section id="studentSection">
-        <h2>Student Section</h2>
-        <p>Students can search and view results:</p>
-        <!-- Add form or content related to student section -->
-    </section>
+- **Students:**
+  - Search and view individual results or results of the whole batch.
 
-    <section id="teacherSection">
-        <h2>Teacher Section</h2>
-        <p>Teachers can prepare and analyze results:</p>
-        <!-- Add form or content related to teacher section -->
-    </section>
+- **Teachers:**
+  - Prepare results for their courses.
+  - Analyze course outcomes and program outcomes using Co-Po attainment graphs.
 
-    <section id="chairmanSection">
-        <h2>Department Chairman Section</h2>
-        <p>Department chairman can monitor the overall result condition:</p>
-        <!-- Add form or content related to chairman section -->
-    </section>
+- **System:**
+  - Smooth and error-free result management.
 
-    <section id="universitySection">
-        <h2>University Section</h2>
-        <p>University can monitor departmental result conditions:</p>
-        <!-- Add form or content related to university section -->
-    </section>
+- **Department Chairman:**
+  - Monitor the overall condition of the result for any batch.
 
-    <footer>
-        <p>&copy; 2023 OBE Result Management System</p>
-    </footer>
+- **University:**
+  - Monitor the result condition of any department.
 
-    <!-- Add your JavaScript scripts or other body elements here -->
+## Usage
 
-</body>
-</html>
+- The application is designed to provide the following functionalities:
+
+  - **Student Section:**
+    - Search and view individual or batch results.
+
+  - **Teacher Section:**
+    - Prepare and analyze results for courses.
+
+  - **Chairman Section:**
+    - Monitor the overall result condition for a batch.
+
+  - **University Section:**
+    - Monitor departmental result conditions.
+
+## How to Run
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/obe-result-management-system.git
+    cd obe-result-management-system
+    ```
+
+2. Open the `index.html` file in your web browser.
+
+## Contributing
+
+If you would like to contribute to the project, please follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch:
+
+    ```bash
+    git checkout -b feature/your-feature
+    ```
+
+3. Make your changes and commit them:
+
+    ```bash
+    git commit -m "Add your feature"
+    ```
+
+4. Push to the branch:
+
+    ```bash
+    git push origin feature/your-feature
+    ```
+
+5. Open a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
 
 ![image](https://github.com/whomping-willow/OBE/assets/51289468/332d5190-f63d-45bf-ab4b-68cf2c13b4c6)
 ![image](https://github.com/whomping-willow/OBE/assets/51289468/580a508f-a0fb-407a-8728-25f8fd72fb70)
