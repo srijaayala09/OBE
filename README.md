@@ -1,7 +1,25 @@
 # OBE Result Management System
 
 This project is a web application based on Outcome Based Education (OBE) Result Management System.
-# OBE Result Management System
+
+# JU_Trio
+
+## Team Description
+We are JU_Trio from the Computer Science and Engineering department at JU, passionate about content creation in the fields of Design and Development. We thrive on learning new languages and frameworks such as Django, JavaScript, CSS, and utilizing tools like Git. Exploring IDEs like Visual Studio Code is also a part of our journey. Collaboration and teamwork are aspects we truly enjoy in our work.
+
+## Team Members
+1. **Iffat Ara Sanzida**
+2. **Nurun Nahar Fiha**
+3. **Serajum Monira**
+
+## Skills and Experience
+- ⚛ Django
+- 📱 Visual Studio Code
+- 💻 HTML, CSS, JS, Python, Bootstrap, JavaScript
+
+Feel free to explore our repositories and join us in our coding adventures!
+
+
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
