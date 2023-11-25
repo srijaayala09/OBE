@@ -1,12 +1,54 @@
-# OBE
-This project is a web application based on Outcome Based Education (OBE) Result Management System. By using this project: 
-->Students can search results 
-->Students can get their results or the result of the whole batch. 
-->Teachers can prepare results for their courses. 
-->Teachers can analyze the course outcomes and program outcomes based on the Co-Po attainment graph prepared by our system. 
-->The entire result management system can run smoothly and error freely. 
-->The department chairman can monitor the overall condition of the result of any batch. 
-->The university can monitor the result condition of any of the departments. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBE Result Management System</title>
+    <!-- Add your CSS stylesheets and other head elements here -->
+</head>
+<body>
+
+    <header>
+        <h1>OBE Result Management System</h1>
+    </header>
+
+    <nav>
+        <!-- Add navigation links if needed -->
+    </nav>
+
+    <section id="studentSection">
+        <h2>Student Section</h2>
+        <p>Students can search and view results:</p>
+        <!-- Add form or content related to student section -->
+    </section>
+
+    <section id="teacherSection">
+        <h2>Teacher Section</h2>
+        <p>Teachers can prepare and analyze results:</p>
+        <!-- Add form or content related to teacher section -->
+    </section>
+
+    <section id="chairmanSection">
+        <h2>Department Chairman Section</h2>
+        <p>Department chairman can monitor the overall result condition:</p>
+        <!-- Add form or content related to chairman section -->
+    </section>
+
+    <section id="universitySection">
+        <h2>University Section</h2>
+        <p>University can monitor departmental result conditions:</p>
+        <!-- Add form or content related to university section -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 OBE Result Management System</p>
+    </footer>
+
+    <!-- Add your JavaScript scripts or other body elements here -->
+
+</body>
+</html>
+
 ![image](https://github.com/whomping-willow/OBE/assets/51289468/332d5190-f63d-45bf-ab4b-68cf2c13b4c6)
 ![image](https://github.com/whomping-willow/OBE/assets/51289468/580a508f-a0fb-407a-8728-25f8fd72fb70)
 ![image](https://github.com/whomping-willow/OBE/assets/51289468/c86b2725-d167-433b-accd-1b27d4ec39d6)
