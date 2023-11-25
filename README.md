@@ -1,4 +1,4 @@
-# OBE Result Management Syste
+<h1 align="center">OBE Result Management System</h1>
 This project is a web application based on Outcome Based Education (OBE) Result Management System.
 
 ![](https://github.com/whomping-willow/OBE/blob/main/static/images/homeAnimation.gif)
@@ -66,68 +66,17 @@ Make sure you have the following prerequisites installed:
      ```
 When prompted, enter a username, email, and password.
 
-##
-Certainly! Here's the entire paragraph converted into a GitHub README.md code:
+## Run the application
+  From the root directory run:
+  ```bash
+    python manage.py runserver
+  ```
 
-markdown
-Copy code
-# OBE Result Management System
+## View the application
+  Go to![](http://127.0.0.1:8000/) to view the application.
 
-## Table of Contents
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-  - [1. Create a virtual environment](#1-create-a-virtual-environment)
-  - [2. Activate the virtual environment](#2-activate-the-virtual-environment)
-  - [3. Install required dependencies](#3-install-required-dependencies)
-  - [4. Run migrations](#4-run-migrations)
-  - [5. Create an admin user](#5-create-an-admin-user)
-- [Run the application](#run-the-application)
-- [View the application](#view-the-application)
-- [Copyright and License](#copyright-and-license)
-
-## Prerequisites
-Make sure you have the following prerequisites installed:
-- Python 3.10.4 or higher
-- Visual Studio Code
-
-## Installation
-1. **Create a virtual environment:**
-   From the root directory run:
-   ```bash
-   python -m venv venv
-Activate the virtual environment:
-From the root directory run:
-
-On Linux/macOS:
-bash
-Copy code
-source venv/bin/activate
-On Windows:
-bash
-Copy code
-venv\scripts\activate
-Install required dependencies:
-From the root directory run:
-
-bash
-Copy code
-pip install -r requirements.txt
-Run migrations:
-From the root directory run:
-
-bash
-Copy code
-python manage.py makemigrations
-python manage.py migrate
-Create an admin user:
-From the root directory run:
-
-bash
-Copy code
-python manage.py createsuperuser
-When prompted, enter a username, email, and password.
-
-Run the application
+## Copyright and License
+    Copyright © 2023 Iffat-Fiha-Monira. All rights reserved.
 
 ## Features
 
@@ -166,44 +115,10 @@ Run the application
 
 ## How to Run
 
-1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/your-username/obe-result-management-system.git
-    cd obe-result-management-system
-    ```
-
-2. Open the `index.html` file in your web browser.
-
-## Contributing
-
-If you would like to contribute to the project, please follow these steps:
-
-1. Fork the repository.
-
-2. Create a new branch:
-
-    ```bash
-    git checkout -b feature/your-feature
-    ```
-
-3. Make your changes and commit them:
-
-    ```bash
-    git commit -m "Add your feature"
-    ```
-
-4. Push to the branch:
-
-    ```bash
-    git push origin feature/your-feature
-    ```
-
-5. Open a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+```arduino
+Feel free to use this template and customize it further based on your specific project details and preferences.
+```
 
 ---
 
