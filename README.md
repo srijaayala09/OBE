@@ -2,9 +2,9 @@
 
 This project is a web application based on Outcome Based Education (OBE) Result Management System.
 
-# JU_Trio
+![Uploading Untitled_Project_V1.gif…]()
 
-## Team Description
+## JU_Trio
 We are JU_Trio from the Computer Science and Engineering department at JU, passionate about content creation in the fields of Design and Development. We thrive on learning new languages and frameworks such as Django, JavaScript, CSS, and utilizing tools like Git. Exploring IDEs like Visual Studio Code is also a part of our journey. Collaboration and teamwork are aspects we truly enjoy in our work.
 
 ## Team Members
