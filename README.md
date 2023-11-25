@@ -2,7 +2,7 @@
 
 This project is a web application based on Outcome Based Education (OBE) Result Management System.
 
-https://github.com/whomping-willow/OBE/blob/main/static/images/homeAnimation.gif
+![](https://github.com/whomping-willow/OBE/blob/main/static/images/homeAnimation.gif)
 
 ## JU_Trio
 We are JU_Trio from the Computer Science and Engineering department at JU, passionate about content creation in the fields of Design and Development. We thrive on learning new languages and frameworks such as Django, JavaScript, CSS, and utilizing tools like Git. Exploring IDEs like Visual Studio Code is also a part of our journey. Collaboration and teamwork are aspects we truly enjoy in our work.
