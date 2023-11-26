@@ -26,8 +26,8 @@ We are JU_Trio from the Computer Science and Engineering department at JU, passi
   - [5. Create an admin user](#5-create-an-admin-user)
 - [Run the application](#run-the-application)
 - [View the application](#view-the-application)
-- Features
-- Usage
+- [Features](#features)
+- [Usage](#Usage)
 - [Copyright and License](#copyright-and-license)
 
 ## Prerequisites
