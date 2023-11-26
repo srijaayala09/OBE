@@ -32,7 +32,7 @@ We are JU_Trio from the Computer Science and Engineering department at JU, passi
 
 ## Prerequisites
 Make sure you have the following prerequisites installed:
-- Python 3.10.4 or# OBE Result Management System
+- Python 3.10.4 or above
 ## Installation
 1. **Create a virtual environment:**
    From the root directory run:
