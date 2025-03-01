@@ -3,13 +3,6 @@
 
 ![](https://github.com/whomping-willow/OBE/blob/main/static/images/homeAnimation.gif)
 
-## JU_Trio
-We are JU_Trio from the Computer Science and Engineering department at JU, passionate about content creation in the fields of Design and Development. We thrive on learning new languages and frameworks such as Django, JavaScript, CSS, and utilizing tools like Git. Exploring IDEs like Visual Studio Code is also a part of our journey. Collaboration and teamwork are aspects we truly enjoy in our work.
-
-## Team Members
-1. **Iffat Ara Sanzida**
-2. **Nurun Nahar Fiha**
-3. **Serajum Monira**
 
 ## Skills and Experience
 - ⚛ Django
@@ -132,14 +125,7 @@ When prompted, enter a username, email, and password.
   - **University Section:**
     - Monitor departmental result conditions.
 
-  
-*💫Thank you!💫.*
 
-Special Thanks 💚 to our respected supervisors  `Dr. Abu Sayed Md. Mostafizur Rahaman` & `Anup Majumder`.
-
-💭 Feel free to submit a ✅pull✅ request with your valuable suggestions. ☜(ﾟヮﾟ☜)
-
----
 
 
 
