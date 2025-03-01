@@ -21,7 +21,6 @@
 - [View the application](#view-the-application)
 - [Features](#features)
 - [Usage](#Usage)
-- [Copyright and License](#copyright-and-license)
 
 ## Prerequisites
 Make sure you have the following prerequisites installed:
@@ -68,9 +67,6 @@ When prompted, enter a username, email, and password.
 
 ## View the application
   Go http://127.0.0.1:8000/ to view the application.
-
-## Copyright and License
-    Copyright © 2023 Iffat-Fiha-Monira. All rights reserved.
 
 ## Features
 
